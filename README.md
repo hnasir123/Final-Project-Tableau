@@ -67,6 +67,7 @@ By using histogram we find the distribution is right skewed for Price
 11. Is there a relationship between the review scores rating and the price of the listing?
 I created Density plot to analyze it and find that there is a correlation between ratings and price. There are some listings having very high values that is the skewing the data so if we use price excluding outliers we can see there is weak correlation between ratings and price.
 Below are the p-value results which is less than 0.05 indicating we can reject null hypothesis i.e there is no relation between ratings and price
+
 P-value:	< 0.0001
 Equation:	Price = 1.00864*Review Scores Rating + 58.7801
 
